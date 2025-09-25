@@ -27,5 +27,5 @@ It is for knowing the current router(path).
 ### useSearchParams()
 It is use to know the searching through params.
 
-
-
+## Not Found Page
+If any page that is not found and we want to navigate to the the specific page so we can create a page using this file name wherever we want to give specific page for not found page like this ``not-found.tsx``. Generally we create a only one not-found page for all in the root(home) router.
