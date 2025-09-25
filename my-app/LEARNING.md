@@ -29,3 +29,6 @@ It is use to know the searching through params.
 
 ## Not Found Page
 If any page that is not found and we want to navigate to the the specific page so we can create a page using this file name wherever we want to give specific page for not found page like this ``not-found.tsx``. Generally we create a only one not-found page for all in the root(home) router.
+
+## Loading Page
+The lading page can be used for any page where we are gating fetching data. We can use loading page for intractivity. Loading page is must created using `loading.tsx` inside any folder on which router we want to show the loading while fetching data.
