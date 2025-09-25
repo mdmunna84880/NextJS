@@ -32,3 +32,6 @@ If any page that is not found and we want to navigate to the the specific page s
 
 ## Loading Page
 The lading page can be used for any page where we are gating fetching data. We can use loading page for intractivity. Loading page is must created using `loading.tsx` inside any folder on which router we want to show the loading while fetching data.
+
+## Error Handling
+Error can be handled through `error.tsx`.
