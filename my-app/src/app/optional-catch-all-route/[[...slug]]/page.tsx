@@ -1,4 +1,7 @@
-function ProductFilter() {
+async function ProductFilter({params}:{params: Promise<{ slug?: string[] }>}) {
+    const { slug } = await params;
+    console.log(slug);
+
     return (
         <div>
             <h1>Optional Catch All route</h1>

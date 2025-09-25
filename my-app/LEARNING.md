@@ -14,3 +14,18 @@ It is used when we don't want to route for every single route let's say for filt
 
 ### optinal Catch All Route
 It is used when we want to open without having slug. Like `optional-catch-all-route=>[[...slug]]`.
+
+### useRouter()
+It is a object of router. Using it we can nevigate to previous router, or any desired router and so on.
+
+### Client Side Rendering (`use client`)
+To render the page through client side rendering use `use client` with double or singal inverted commas like string in js.
+
+### usePathname()
+It is for knowing the current router(path).
+
+### useSearchParams()
+It is use to know the searching through params.
+
+
+
